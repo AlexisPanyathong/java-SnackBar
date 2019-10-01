@@ -36,7 +36,7 @@ public class Snack
         this.name = name;
     }
 
-    public String getName(String name)
+    public String getName()
     {
         return name;
     }
@@ -46,7 +46,7 @@ public class Snack
         this.quantity = quantity;
     }
 
-    public int getQuantity(int quantity)
+    public int getQuantity()
     {
         return quantity;
     }
@@ -56,17 +56,17 @@ public class Snack
         this.cost = cost;
     }
 
-    public double getCost(double cost)
+    public double getCost()
     {
         return cost;
     }
 
-    public void vendingMachineId(int vendingMachineId)
+    public void setVendingMachineId(int vendingMachineId)
     {
         this.vendingMachineId = vendingMachineId;
     }
 
-    public int getVendingMachineId(int vendingMachineId)
+    public int getVendingMachineId()
     {
         return vendingMachineId;
     }
